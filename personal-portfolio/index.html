@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ajax library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- header design -->
+    <div class="header">
+        <a href="#" class="logo">Shyam Sundar.</a>
+        <i class="bx bx-menu" id="menu-icon" onclick="closeNavbar()"></i>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+
+    <!-- home section design -->
+
+    <section class="home" id="home">
+    <div class="home-content">
+            <h1>Hi, I'm <span>Shyam Sundar</span></h1>
+            <div class="text-animate">
+                <h3><span>MERN</span> STACK DEVELOPER</h3>
+            </div>
+<p>I'm a self-driven web developer, currently diving deep into full-stack development. Using the MERN stack—MongoDB, Express.js, React, and Node.js—I'm building modern, responsive web apps. Every line of code is an opportunity to push boundaries and refine my craft, as I shape solutions that are both functional and efficient.</p>
+            <div class="btn-box">
+                <a href="https://mail.google.com/mail/u/0/?fs=1&to=jithin.george.el@gmail.com&su=Interested+in+hiring+you&body=Hello+Jithin&tf=cm"
+                    target="_blank" class="btn">Download CV</a>
+            </div>
+        </div>
+        
+
+
+
+       
+    </section>
+
+    <!-- about section design -->
+
+    <section class="about" id="about">
+        
+        <div class="about-img">
+          <img src="images/user.jpg" alt="">
+        </div>
+        <div class="about-content">
+          <h2 class="heading">Know <span>Me</span></h2>
+          <h3>MERN Stack Developer</h3>
+          <P>I am a passionate and aspiring MERN (MongoDB, Express.js, React.js, Node.js) stack developer on a journey to turn ideas into dynamic web applications. With a strong foundation in front-end and back-end development, I thrive on creating seamless, user-friendly experiences. My portfolio is a reflection of my commitment to continuous learning and growth in the world of web development.</P>
+          
+        </div>
+        <div class="social-media">
+            <a href="https://www.facebook.com/sarjun.sarjun.10888/" target="_blank"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.linkedin.com/in/mohammed-sarjun-2664b0333/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/sarjun_07/" target="_blank"><i
+                    class='bx bxl-instagram-alt'></i></a>
+            <a href="https://github.com/mohammedsarjun" target="_blank"><i class='bx bxl-github'></i></a>
+
+        </div>
+
+
+      </section>
+
+    <!-- services section design -->
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-desktop'></i>
+                <h3>Custom Web Design</h3>
+                <p>I create tailor-made web pages that are both aesthetically pleasing and functionally seamless.</p>
+                <div class="btn-box btns"><a
+                        href="https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg?w=1060&t=st=1696363218~exp=1696363818~hmac=94af7bfdb93605088aa385f2de866f7c243965c7bf821c358b75fe1ba7432480"
+                        target="_blank" class="btn">Read More</a></div>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-minus-front'></i>
+                <h3>Front End Development</h3>
+                <p>Crafting user interfaces with HTML, CSS, and JavaScript to ensure an engaging and visually appealing
+                    user experience.</p>
+                <div class="btn-box btns"><a
+                        href="https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg?w=1060&t=st=1696363218~exp=1696363818~hmac=94af7bfdb93605088aa385f2de866f7c243965c7bf821c358b75fe1ba7432480"
+                        target="_blank" class="btn">Read More</a></div>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-git-repo-forked'></i>
+                <h3>Back End Development</h3>
+                <p>Handling server-side logic, databases, and application architecture to ensure smooth functionality
+                    and performance.</p>
+                <div class="btn-box btns"><a
+                        href="https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg?w=1060&t=st=1696363218~exp=1696363818~hmac=94af7bfdb93605088aa385f2de866f7c243965c7bf821c358b75fe1ba7432480"
+                        target="_blank" class="btn">Read More</a></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- projects- section design -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+
+            <div class="portfolio-box">
+                <img src="images/work1.png" alt="A picture of Audi.com homepage clone">
+                <div class="portfolio-layer">
+                    <h4>Basic homepage clone using HTML&CSS</h4>
+                    <p>Created a whole clone of Audi using only HTML and CSS.</p>
+                    <a href="#" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/work2.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>7UP website Clone</h4>
+                    <p> Homepage of7UP website's homepage using only HTML and CSS.</p>
+                    <a href="#"
+                        target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/work3.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>SpaceX website Clone</h4>
+                    <p> Homepage of SpaceX website's homepage using only HTML and CSS.</p>
+                    <a href="#"
+                        target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/work4.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>9Skin website Clone</h4>
+                    <p> Homepage of 9Skin website's homepage using only HTML and CSS.</p>
+                    <a href="#"
+                        target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+
+
+
+
+        
+        </div>
+
+    </section>
+
+    <!-- education section design -->
+
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Journey</span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Experience</h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>Aug 2024-Present</div>
+                            <h3>Student-at Brocamp, Coimbatore.</h3>
+                            <p>Created home page clone of Audi.com and 7UP.com using HTML& CSS.</p>
+                            
+                        </div>
+                    </div>
+
+                   
+
+                    <div class="education-column">
+                        <h3 class="title">Education</h3>
+
+                        <div class="education-box">
+                            <div class="education-content">
+                                <div class="content">
+                                    <div class="year"><i class='bx bxs-calendar'></i>2021-2024</div>
+                                    <h3>Bachelor of Information Technology - SANSAC,Coimbatore.</h3>
+                                    <p></p>
+                                    <p>Build an machine learning Eye Mouse for disabled people. </p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+    </section>
+
+    <!-- skills section design -->
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>80%</span></h3>
+                            <div class="bar"><span style="width: 80%;"></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>CSS <span>50%</span></h3>
+                            <div class="bar"><span style="width: 50%;"></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Javascript <span>25%</span></h3>
+                            <div class="bar"><span style="width: 25%;"></span></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Professional Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Web Design <span>50%</span></h3>
+                            <div class="bar"><span style="width: 50%;"></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Web Development <span>20%</span></h3>
+                            <div class="bar"><span style="width: 20%;"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- contact section design -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form id="submit-to-google-sheet" action="">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" name="username" id="name" placeholder="Full Name*" required name="FullName">
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" name="emailId" placeholder="Email Address*(name@example.com)" required name="Email">
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="tel" name="phone" placeholder="Phone Number*" required name="Phone">
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" name="Subject" placeholder="Email Subject*" required name="Subject">
+                    <span class="focus"></span>
+                </div>
+            </div>
+            <br>
+            <div class="textarea-field">
+                <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message*" required></textarea>
+                <span class="focus"></span>
+            </div>
+
+            <div class="btn-box btns">
+                <button type="submit" class="btn" id="bt" value="Submit">Submit</button>
+            </div>
+        </form>
+
+
+
+        <span id="msg" ></span>
+    </section>
+   
+
+
+    <!-- footer design -->
+
+    <div class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Shyam Sundar</p>
+        </div>
+
+        <div class="footer-icontop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </div>
+
+<script src="new.js">
+    
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxF5xueY53rn0ir2Ogxa3xcLAt8HdK7nrXDAr1Y5otxvfU1-_w_767I1dfAIx7QTQkO/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTml =""
+
+                },1000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
